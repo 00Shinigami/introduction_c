@@ -7,7 +7,7 @@ int main() {
     scanf("%[^\n]", &receiver);
 
     printf("Sehr geehrter %s,\n\n ", receiver);
-    printf("anbei einmal die Gewünschten Daten! \n\n");
+    printf("anbei einmal die Gewünschten Dateien! \n\n");
     printf("Anhänge: %d", attachments);
 
     return 0;
