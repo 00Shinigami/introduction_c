@@ -22,6 +22,13 @@ int main()
     /*ungleich*/
     if(preisBirne != preisKiwi)
     printf("Birne und Kiwi haben unterschiedliche Preise\n");
-
+    /*Arbeiten mit if, else*/
+    if(preisApfel >= preisKiwi)
+    printf("Apfel ist mindestens so teuer wie kiwi \n");
+    else
+    {
+        printf("Der Apfel ist günstiger \n");
+    }
+        /*Mehrere Bedingungen werden mit "&&(Und),||(Oder), !(nicht)" kombiniert*/
     return 0;
 }
